@@ -1,3 +1,8 @@
+> **Filmio fork (`filmio` branch).** Upstream 2.1.0 plus a Mac Catalyst slice
+> (`ios-arm64_x86_64-maccatalyst`, `aarch64` / `x86_64-apple-ios-macabi`, stable Rust).
+> `./build-catalyst.sh` builds just that slice and merges it into the existing `Dovi.xcframework`.
+> Tags: `2.1.0-filmio.N`.
+
 # LibDovi
 
 [libdovi](https://github.com/quietvoid/dovi_tool) (the C API of the `dolby_vision` Rust crate, the reference Dolby Vision RPU library behind `dovi_tool`) cross-compiled for Apple platforms and packaged as a SwiftPM binary target.
